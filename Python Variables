@@ -1,0 +1,24 @@
+# Normal variable
+normal_variable = 42
+print("Normal Variable:", normal_variable)
+
+# Global variable
+global_variable = "I am global"
+def display_global_variable():
+    # Accessing global variable within a function
+    print("Global Variable inside function:", global_variable)
+
+display_global_variable()
+print("Global Variable outside function:", global_variable)
+
+# Multiple values variable (List)
+multiple_values_variable = [1, 2, 3, 4, 5]
+print("Multiple Values Variable (List):", multiple_values_variable)
+
+# Multiple values variable (Tuple)
+tuple_variable = (10, 20, 30)
+print("Multiple Values Variable (Tuple):", tuple_variable)
+
+# Multiple values variable (Dictionary)
+dictionary_variable = {'key1': 'value1', 'key2': 'value2'}
+print("Multiple Values Variable (Dictionary):", dictionary_variable)
